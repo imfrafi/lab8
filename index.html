@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta name = "viewpoint" content = "width=device-width, iniitial-scale=1">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form>
+        Please fill out this form to help us improve our site. <br>
+        <p>
+            <label> Name:
+                <input name="name" type="password" size="25" maxlength="30">
+            </label>
+        </p>
+        Comments: <br>
+        <textarea name="comments"  cols="50" rows="4">Enter comments here.</textarea>
+        <br>
+        <p>
+            <label>Email Address: 
+                <input type="text" size="25">
+            </label>
+        </p>
+        <label for="liked"><b>Things you liked:</b></label>
+            Site design<input type="checkbox" name="liked">
+            Links<input type="checkbox" name="liked">
+            Ease of use<input type="checkbox" name="liked">
+            Images<input type="checkbox" name="liked">
+            Source code<input type="checkbox" name="liked">
+        <br><br>
+        <label for="get to site"><b>How did you get to our site</b></label>
+            Search<input type="radio" name="site" checked>
+            Links from another site<input type="radio" name="site">
+            Deitel.com Web site<input type="radio" name="site">
+            Reference in book<input type="radio" name="site">
+            Other<input type="radio" name="Other">
+        <br><br>
+        <label for="rate">Rate our site:</label>
+        <select name="rate">
+            <option value="Amazing">Amazing</option>
+            <option value="OK">OK</option>
+            <option value="Terrible">Terrible</option>
+        </select>
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="clear">
+    </form> 
+</body>
